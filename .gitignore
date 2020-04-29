@@ -2,10 +2,16 @@
 __pycache__/
 *.py[cod]
 *$py.class
+db.sqlite3
+lib/
+env/Scripts/
 
+*pyc
 # C extensions
 *.so
-
+.idea/workspace.xml
+.idea/
+.idea
 # Distribution / packaging
 .Python
 build/
@@ -96,3 +102,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+codecheck/static/
+codecheck_venv/bin/
+codecheck_venv/
+staticfiles/
+
+\.DS_Store
